@@ -1,0 +1,30 @@
+
+# --- Codebuff common exclusions ---
+# Archives (do NOT commit zip folders)
+*.zip
+*.rar
+*.7z
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+LOST.DIR
+
+# Build outputs, caches, virtualenvs
+build/
+.gradle/
+.gradle-cache/
+.idea/
+node_modules/
+__pycache__/
+*.pyc
+*.class
+venv/
+.venv/
+envJarvis/
+local.properties
+
+# Files exceeding GitHub's 100MB limit (CoreNLP models)
+stanford-corenlp-*-models.jar
